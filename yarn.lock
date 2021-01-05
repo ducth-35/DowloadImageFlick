@@ -1748,12 +1748,12 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-axios@^0.19.2:
-  version "0.19.2"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
-  integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
   dependencies:
-    follow-redirects "1.5.10"
+    follow-redirects "^1.10.0"
 
 babel-plugin-dynamic-import-node@^2.3.0:
   version "2.3.0"
@@ -2358,13 +2358,6 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   dependencies:
     ms "2.0.0"
 
-debug@=3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
-  integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
-  dependencies:
-    ms "2.0.0"
-
 debug@^3.2.6:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
@@ -2694,15 +2687,20 @@ expo-location@~8.0.0:
   dependencies:
     invariant "^2.2.4"
 
-expo-media-library@~8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/expo-media-library/-/expo-media-library-8.0.0.tgz#d763a2f39a81348d357171be5ea486679c2edb86"
-  integrity sha512-7TIcJjmQq+sH3deIVjwyQYa3nVsLZZUj6fQYA3R+DrFNRT6ehmd1Lai0klTa7ma3pflPEC4Uv2zOyf53alvD2w==
+expo-media-library@^8.0.0:
+  version "8.5.0"
+  resolved "https://registry.yarnpkg.com/expo-media-library/-/expo-media-library-8.5.0.tgz#b3364cfaf9458a940c68405ee170f879708d9f4c"
+  integrity sha512-U3bXrSX4SJhyN1tEQCf+M0mxksQ7H8a4UcUUJf5kGwXtSndmll/YvXMVkHjX/dqHPYeRB9o+UDhb+LGrgWJYfg==
 
 expo-permissions@*, expo-permissions@~8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/expo-permissions/-/expo-permissions-8.0.0.tgz#5a45e8451dd7ff37c9e6ce5e2447818372547813"
   integrity sha512-GHTRmwh1rd1b0FcibluPFu93NNQyl9b1anBBDVPmomoo9Prz7kDcO5p2hFqM99r896yvAUSe0fPloPKUq4g/1A==
+
+expo-permissions@^8.1.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/expo-permissions/-/expo-permissions-8.2.0.tgz#6b23e0c18ca84e34d7b0ffb425d56a3818ac6fd6"
+  integrity sha512-XH+7ybVnIkf6KQeVHM5Q+nyvWbdflKVXfLbU1lBBH25R1s0EBt7wvh9hK1OzCQ8AkvrbpRqsjenqYFD8lgP/sA==
 
 expo-sharing@~8.0.0:
   version "8.0.0"
@@ -2723,7 +2721,7 @@ expo-web-browser@~8.0.0:
   resolved "https://registry.yarnpkg.com/expo-web-browser/-/expo-web-browser-8.0.0.tgz#8a4451c744c115569a4c810dac8851f219a21c72"
   integrity sha512-7/rXUajycSjEF4Zd4tWm8+zP9/zJg8UWj575w2AeGI7RbOwUjqzQd1CFRzQBJkHflrEaTOXJbFHXxjJXdJaL1g==
 
-expo@~36.0.0:
+expo@^36.0.2:
   version "36.0.2"
   resolved "https://registry.yarnpkg.com/expo/-/expo-36.0.2.tgz#17e5470c056f8615ebdd6819087af6a1032cf1ad"
   integrity sha512-A0HkOBr6PkHUCcPmmTRmZQHE68EYhWDevFHAiv7fSZxNACmTq9arrSoON+UiPtGQEIV5OyV+MN/joHTJMduTkA==
@@ -2991,12 +2989,10 @@ firebase@^7.9.1:
     "@firebase/storage" "0.3.26"
     "@firebase/util" "0.2.40"
 
-follow-redirects@1.5.10:
-  version "1.5.10"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
-  integrity sha512-0V5l4Cizzvqt5D44aTXbFZz+FtyXV1vrDN6qrelxtfYQKW0KO0W2T/hkE8xvGa/540LkZlkaUjO4ailYTFtHVQ==
-  dependencies:
-    debug "=3.1.0"
+follow-redirects@^1.10.0:
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.1.tgz#5f69b813376cee4fd0474a3aba835df04ab763b7"
+  integrity sha512-SSG5xmZh1mkPGyKzjZP8zLjltIfpW32Y5QpdNJyjcfGxK3qo3NDDkZOZSFiGn1A6SclQxY9GzEwAHQ3dmYRWpg==
 
 fontfaceobserver@^2.1.0:
   version "2.1.0"
@@ -3261,6 +3257,11 @@ ignore-walk@^3.0.1:
   integrity sha512-m7o6xuOaT1aqheYHKf8W6J5pYH85ZI9w077erOzLje3JsB1gkafkAhHHY19dqjulgIZHFm32Cp5uNZgcQqdJKw==
   dependencies:
     minimatch "^3.0.4"
+
+image-picker@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/image-picker/-/image-picker-0.3.1.tgz#6af8b50a2ffc98df5d4b9451373e39d2c6151485"
+  integrity sha1-avi1Ci/8mN9dS5RRNz450sYVFIU=
 
 image-size@^0.6.0:
   version "0.6.3"
