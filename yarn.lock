@@ -2694,15 +2694,20 @@ expo-location@~8.0.0:
   dependencies:
     invariant "^2.2.4"
 
-expo-media-library@~8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/expo-media-library/-/expo-media-library-8.0.0.tgz#d763a2f39a81348d357171be5ea486679c2edb86"
-  integrity sha512-7TIcJjmQq+sH3deIVjwyQYa3nVsLZZUj6fQYA3R+DrFNRT6ehmd1Lai0klTa7ma3pflPEC4Uv2zOyf53alvD2w==
+expo-media-library@^8.0.0:
+  version "8.5.0"
+  resolved "https://registry.yarnpkg.com/expo-media-library/-/expo-media-library-8.5.0.tgz#b3364cfaf9458a940c68405ee170f879708d9f4c"
+  integrity sha512-U3bXrSX4SJhyN1tEQCf+M0mxksQ7H8a4UcUUJf5kGwXtSndmll/YvXMVkHjX/dqHPYeRB9o+UDhb+LGrgWJYfg==
 
 expo-permissions@*, expo-permissions@~8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/expo-permissions/-/expo-permissions-8.0.0.tgz#5a45e8451dd7ff37c9e6ce5e2447818372547813"
   integrity sha512-GHTRmwh1rd1b0FcibluPFu93NNQyl9b1anBBDVPmomoo9Prz7kDcO5p2hFqM99r896yvAUSe0fPloPKUq4g/1A==
+
+expo-permissions@^8.1.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/expo-permissions/-/expo-permissions-8.2.0.tgz#6b23e0c18ca84e34d7b0ffb425d56a3818ac6fd6"
+  integrity sha512-XH+7ybVnIkf6KQeVHM5Q+nyvWbdflKVXfLbU1lBBH25R1s0EBt7wvh9hK1OzCQ8AkvrbpRqsjenqYFD8lgP/sA==
 
 expo-sharing@~8.0.0:
   version "8.0.0"
@@ -2723,7 +2728,7 @@ expo-web-browser@~8.0.0:
   resolved "https://registry.yarnpkg.com/expo-web-browser/-/expo-web-browser-8.0.0.tgz#8a4451c744c115569a4c810dac8851f219a21c72"
   integrity sha512-7/rXUajycSjEF4Zd4tWm8+zP9/zJg8UWj575w2AeGI7RbOwUjqzQd1CFRzQBJkHflrEaTOXJbFHXxjJXdJaL1g==
 
-expo@~36.0.0:
+expo@^36.0.2:
   version "36.0.2"
   resolved "https://registry.yarnpkg.com/expo/-/expo-36.0.2.tgz#17e5470c056f8615ebdd6819087af6a1032cf1ad"
   integrity sha512-A0HkOBr6PkHUCcPmmTRmZQHE68EYhWDevFHAiv7fSZxNACmTq9arrSoON+UiPtGQEIV5OyV+MN/joHTJMduTkA==
@@ -3261,6 +3266,11 @@ ignore-walk@^3.0.1:
   integrity sha512-m7o6xuOaT1aqheYHKf8W6J5pYH85ZI9w077erOzLje3JsB1gkafkAhHHY19dqjulgIZHFm32Cp5uNZgcQqdJKw==
   dependencies:
     minimatch "^3.0.4"
+
+image-picker@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/image-picker/-/image-picker-0.3.1.tgz#6af8b50a2ffc98df5d4b9451373e39d2c6151485"
+  integrity sha512-mbT/R7LcbXxhIKoDCQAjjejzAja6+JnBlSOa7I7SnF1sMen2lIh2WCfq3JjBD+cCfxKZHks3ZxO9cQ0TFj1aOQ==
 
 image-size@^0.6.0:
   version "0.6.3"
@@ -5809,9 +5819,9 @@ typedarray@^0.0.6:
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
 ua-parser-js@^0.7.18, ua-parser-js@^0.7.19:
-  version "0.7.21"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.21.tgz#853cf9ce93f642f67174273cc34565ae6f308777"
-  integrity sha512-+O8/qh/Qj8CgC6eYBVBykMrNtp5Gebn4dlGD/kKXVkJNDwyrAwSIqwz8CDf+tsAIWVycKcku6gIXJ0qwx/ZXaQ==
+  version "0.7.33"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.33.tgz#1d04acb4ccef9293df6f70f2c3d22f3030d8b532"
+  integrity sha512-s8ax/CeZdK9R/56Sui0WM6y9OFREJarMRHqLB2EwkovemBxNQ+Bqu8GAsUnVcXKgphb++ghr/B2BZx4mahujPw==
 
 uglify-es@^3.1.9:
   version "3.3.9"
